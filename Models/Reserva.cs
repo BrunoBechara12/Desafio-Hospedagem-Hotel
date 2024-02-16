@@ -43,7 +43,7 @@ namespace DesafioProjetoHospedagem.Models
             // *IMPLEMENTE AQUI*
             if (DiasReservados >= 10)
             {
-                valor *= 0.9M;
+                valor -= valor * 0.10M;
             }
 
             return valor;
